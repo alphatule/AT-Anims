@@ -17,18 +17,16 @@ namespace atanims_cl.Menus
             if (setupDone) return;
             setupDone = true;
             MenuController.AddMenu(EmotesMenuInstance);
-            MenuController.EnableMenuToggleKeyOnController = false; 
-            MenuController.MenuToggleKey = (Control)0;
 
 
-            EmotesMenuInstance.OnMenuOpen += (_menu) => {
+            //EmotesMenuInstance.OnMenuOpen += (_menu) => {
                 
-            };
+            //};
 
-            EmotesMenuInstance.OnMenuClose += (_menu) =>
-            {
+            //EmotesMenuInstance.OnMenuClose += (_menu) =>
+            //{
 
-            };
+            //};
         }
         public static Menu GetMenu()
         {

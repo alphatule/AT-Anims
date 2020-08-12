@@ -1,3 +1,48 @@
 {
+  "defaultlang": "Es",
+  "KeyToOpenMenu": "0xD8F73058",
 
+  // Andares
+  "WalkStyleList": [
+    {
+      "Name": "Default",
+      "Style": "MP_Style_Default"
+    },
+    {
+      "Name": "Casual",
+      "Style": "MP_Style_Casual"
+    },
+    {
+      "Name": "Crazy",
+      "Style": "MP_Style_Crazy"
+    },
+    {
+      "Name": "Flamboyant",
+      "Style": "MP_Style_Flamboyant"
+    },
+    {
+      "Name": "Gunslinger",
+      "Style": "MP_Style_Gunslinger"
+    },
+    {
+      "Name": "Refined",
+      "Style": "MP_Style_Refined"
+    },
+    {
+      "Name": "SilentType",
+      "Style": "MP_Style_SilentType"
+    },
+    {
+      "Name": "Greenhorn",
+      "Style": "MP_Style_Greenhorn"
+    },
+    {
+      "Name": "Veteran",
+      "Style": "MP_Style_Veteran"
+    },
+    {
+      "Name": "EasyRider",
+      "Style": "MP_Style_EasyRider"
+    }
+  ]
 }

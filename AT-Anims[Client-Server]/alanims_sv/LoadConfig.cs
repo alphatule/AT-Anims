@@ -8,7 +8,7 @@ using System.IO;
 using System.Text;
 
 
-namespace alanims_sv
+namespace atanims_sv
 {
     public class LoadConfig : BaseScript
     {
@@ -16,6 +16,8 @@ namespace alanims_sv
         public static string ConfigString;
         public static Dictionary<string, string> Langs = new Dictionary<string, string>();
         public static string resourcePath = $"{API.GetResourcePath(API.GetCurrentResourceName())}";
+        public static bool isConfigLoaded = false;
+
         public LoadConfig()
         {
             EventHandlers[$"{API.GetCurrentResourceName()}:getConfig"] += new Action<Player>(getConfig);
@@ -43,6 +45,7 @@ namespace alanims_sv
             {
                 Debug.WriteLine($"{API.GetCurrentResourceName()}: Config.json Not Found");
             }
+            isConfigLoaded = true;
         }
         private void getConfig([FromSource] Player source)
         {

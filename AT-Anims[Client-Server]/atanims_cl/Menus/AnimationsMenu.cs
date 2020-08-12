@@ -18,18 +18,16 @@ namespace atanims_cl.Menus
             if (setupDone) return;
             setupDone = true;
             MenuController.AddMenu(animationsMenu);
-            MenuController.EnableMenuToggleKeyOnController = false;
-            MenuController.MenuToggleKey = (Control)0;
 
 
-            animationsMenu.OnMenuOpen += (_menu) => {
+            //animationsMenu.OnMenuOpen += (_menu) => {
 
-            };
+            //};
 
-            animationsMenu.OnMenuClose += (_menu) =>
-            {
+            //animationsMenu.OnMenuClose += (_menu) =>
+            //{
 
-            };
+            //};
         }
         public static Menu GetMenu()
         {

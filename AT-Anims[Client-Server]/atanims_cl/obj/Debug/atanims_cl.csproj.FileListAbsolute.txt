@@ -7,5 +7,4 @@ C:\Users\Alph4\Desktop\VORP-Repositorios\AT-Anims\AT-Anims[Client-Server]\atanim
 C:\Users\Alph4\Desktop\VORP-Repositorios\AT-Anims\AT-Anims[Client-Server]\atanims_cl\obj\Debug\atanims_cl.csproj.CoreCompileInputs.cache
 C:\Users\Alph4\Desktop\VORP-Repositorios\AT-Anims\AT-Anims[Client-Server]\atanims_cl\obj\Debug\atanims_cl.net.dll
 C:\Users\Alph4\Desktop\VORP-Repositorios\AT-Anims\AT-Anims[Client-Server]\build\atanims_cl.net.dll
-C:\Users\Alph4\Desktop\VORP-Repositorios\AT-Anims\AT-Anims[Client-Server]\atanims_cl\obj\Debug\atanims_cl.csproj.CopyComplete
 C:\Users\Alph4\Desktop\VORP-Repositorios\AT-Anims\AT-Anims[Client-Server]\build\at_anims\atanims_cl.net.dll

@@ -18,7 +18,7 @@ namespace atanims_cl.Menus
             setupDone = true;
             MenuController.AddMenu(mainMenu);
 
-            string keyPress = 0xD8F73058.ToString();
+            string keyPress = GetConfig.Config["KeyToOpenMenu"].ToString();
             int KeyInt = Convert.ToInt32(keyPress, 16);
 
             MenuController.EnableMenuToggleKeyOnController = false;
@@ -71,14 +71,14 @@ namespace atanims_cl.Menus
 
             //Nico Nico Ni nanananoe
 
-            mainMenu.OnMenuOpen += (_menu) => {
+            //mainMenu.OnMenuOpen += (_menu) => {
 
-            };
+            //};
 
-            mainMenu.OnMenuClose += (_menu) =>
-            {
+            //mainMenu.OnMenuClose += (_menu) =>
+            //{
 
-            };
+            //};
 
         }
 

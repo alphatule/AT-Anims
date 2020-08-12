@@ -8,13 +8,12 @@ C:\Users\Alph4\Desktop\VORP-Repositorios\AT-Anims\alanims_sv\obj\Debug\alanims_s
 C:\Users\Alph4\Desktop\VORP-Repositorios\AT-Anims\alanims_sv\obj\Debug\alanims_sv.pdb
 C:\Users\Alph4\Desktop\VORP-Repositorios\AT-Anims\alanims_sv\bin\Debug\Config.json
 C:\Users\Alph4\Desktop\VORP-Repositorios\AT-Anims\alanims_sv\bin\Debug\Es.json
-C:\Users\Alph4\Desktop\VORP-Repositorios\AT-Anims\AT-Anims[Client-Server]\alanims_sv\obj\Debug\atanims_sv.csprojAssemblyReference.cache
 C:\Users\Alph4\Desktop\VORP-Repositorios\AT-Anims\AT-Anims[Client-Server]\alanims_sv\obj\Debug\atanims_sv.csproj.CoreCompileInputs.cache
 C:\Users\Alph4\Desktop\VORP-Repositorios\AT-Anims\AT-Anims[Client-Server]\build\Config.json
 C:\Users\Alph4\Desktop\VORP-Repositorios\AT-Anims\AT-Anims[Client-Server]\build\Es.json
 C:\Users\Alph4\Desktop\VORP-Repositorios\AT-Anims\AT-Anims[Client-Server]\build\alanims_sv.net.dll
-C:\Users\Alph4\Desktop\VORP-Repositorios\AT-Anims\AT-Anims[Client-Server]\alanims_sv\obj\Debug\atanims_sv.csproj.CopyComplete
-C:\Users\Alph4\Desktop\VORP-Repositorios\AT-Anims\AT-Anims[Client-Server]\alanims_sv\obj\Debug\alanims_sv.net.dll
 C:\Users\Alph4\Desktop\VORP-Repositorios\AT-Anims\AT-Anims[Client-Server]\build\at_anims\Config.json
 C:\Users\Alph4\Desktop\VORP-Repositorios\AT-Anims\AT-Anims[Client-Server]\build\at_anims\Es.json
-C:\Users\Alph4\Desktop\VORP-Repositorios\AT-Anims\AT-Anims[Client-Server]\build\at_anims\alanims_sv.net.dll
+C:\Users\Alph4\Desktop\VORP-Repositorios\AT-Anims\AT-Anims[Client-Server]\build\at_anims\atanims_sv.net.dll
+C:\Users\Alph4\Desktop\VORP-Repositorios\AT-Anims\AT-Anims[Client-Server]\alanims_sv\obj\Debug\atanims_sv.net.dll
+C:\Users\Alph4\Desktop\VORP-Repositorios\AT-Anims\AT-Anims[Client-Server]\alanims_sv\obj\Debug\atanims_sv.csprojAssemblyReference.cache

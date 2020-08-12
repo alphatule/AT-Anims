@@ -5,16 +5,14 @@ using System;
 using System.Collections.Generic;
 using System.Dynamic;
 using System.Globalization;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace atanims_cl
 {
-     class GetConfig : BaseScript
+     public class GetConfig : BaseScript
     {
         public static JObject Config = new JObject();
         public static Dictionary<string, string> Langs = new Dictionary<string, string>();
+        public static bool configLoaded = false;
 
         public GetConfig()
         {
@@ -30,6 +28,8 @@ namespace atanims_cl
             {
                 Langs[l.Key] = l.Value.ToString();
             }
+            configLoaded = true;
+            atanims_init.KeyToOpen = FromHex(Config["KeyToOpenMenu"].ToString());
         }
 
         public static uint FromHex(string value)
@@ -40,5 +40,5 @@ namespace atanims_cl
             }
             return (uint)Int32.Parse(value, NumberStyles.HexNumber);
         }
-    }
+     }
 }
