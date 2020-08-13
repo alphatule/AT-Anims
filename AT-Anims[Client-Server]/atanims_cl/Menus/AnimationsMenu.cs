@@ -19,16 +19,36 @@ namespace atanims_cl.Menus
             setupDone = true;
             MenuController.AddMenu(animationsMenu);
 
+            // Stop Animations
+            MenuItem stopAnim = new MenuItem(GetConfig.Langs["StopAnim"].ToString(), " ")
+            {
+                RightIcon = MenuItem.Icon.SADDLE
+            };
+            animationsMenu.AddMenuItem(stopAnim);
 
-            //animationsMenu.OnMenuOpen += (_menu) => {
+            //Animation list
+            foreach (var k in GetConfig.Config["AnimationsList"])
+            {
+                MenuItem animName = new MenuItem(k["Name"].ToString(), " ")
+                {
+                    //RightIcon = MenuItem.Icon.CIRCLE
+                };
+                animationsMenu.AddMenuItem(animName);
+            }
 
-            //};
-
-            //animationsMenu.OnMenuClose += (_menu) =>
-            //{
-
-            //};
+            animationsMenu.OnItemSelect += async (_menu, _item, _index) =>
+            {
+                if (_index == 0)
+                {
+                    Funciones.StopAnimation();
+                }
+                else
+                {
+                    Funciones.StartTypeAnim(animationsMenu.CurrentIndex - 1);
+                }    
+            };
         }
+
         public static Menu GetMenu()
         {
             SetupMenu();

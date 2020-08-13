@@ -28,7 +28,6 @@ namespace atanims_cl.Menus
             }
 
 
-
             walkStyleMenu.OnItemSelect += async (_menu, _item, _index) =>
             {
 

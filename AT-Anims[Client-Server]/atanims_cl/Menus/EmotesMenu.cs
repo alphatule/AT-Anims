@@ -18,15 +18,6 @@ namespace atanims_cl.Menus
             setupDone = true;
             MenuController.AddMenu(EmotesMenuInstance);
 
-
-            //EmotesMenuInstance.OnMenuOpen += (_menu) => {
-                
-            //};
-
-            //EmotesMenuInstance.OnMenuClose += (_menu) =>
-            //{
-
-            //};
         }
         public static Menu GetMenu()
         {
