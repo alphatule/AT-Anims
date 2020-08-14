@@ -2,7 +2,8 @@
   "defaultlang": "Es",
   "KeyToOpenMenu": "0xD8F73058",
   "AutoScenarioActivated": true,
-  "AutoScenarioKey": "0x26E9DC00",
+  "AutoScenarioKey": "0x1F6D95E5",
+  "StopAnimationKey": "0x26E9DC00",
 
   // Walk Style List
   "WalkStyleList": [
@@ -250,6 +251,255 @@
       "Dic": "amb_misc@world_human_wash_face_bucket@ground@male_a@idle_d",
       "Anim": "idle_l",
       "Type": "animation"
+    },
+    {
+      "Name": "Lavarse la cara de rodillas",
+      "Anim": "WORLD_HUMAN_WASH_FACE_BUCKET_GROUND",
+      "Type": "scenario"
+    },
+    {
+      "Name": "Observar en cuclillas",
+      "Anim": "WORLD_PLAYER_DYNAMIC_KNEEL",
+      "Type": "scenario"
+    },
+    {
+      "Name": "Impaciente",
+      "Anim": "WORLD_HUMAN_WAITING_IMPATIENT",
+      "Type": "scenario"
+    },
+    {
+      "Name": "Esperar",
+      "Anim": "WORLD_HUMAN_STAND_WAITING",
+      "Type": "scenario"
+    },
+    {
+      "Name": "Limpiar un vaso",
+      "Anim": "WORLD_HUMAN_BARTENDER_CLEAN_GLASS",
+      "Type": "scenario"
+    },
+    {
+      "Name": "Inspeccionar el suelo",
+      "Anim": "WORLD_HUMAN_CROUCH_INSPECT",
+      "Type": "scenario"
+    },
+    {
+      "Name": "Inspeccionar",
+      "Anim": "WORLD_HUMAN_INSPECT",
+      "Type": "scenario"
+    },
+    {
+      "Name": "Cruzar los brazos",
+      "Anim": "WORLD_HUMAN_STARE_STOIC",
+      "Type": "scenario"
+    },
+    {
+      "Name": "Tomar notas en cuaderno",
+      "Anim": "WORLD_HUMAN_WRITE_NOTEBOOK",
+      "Type": "scenario"
+    }
+  ],
+
+  // EMOTES
+  "EmotesList": [
+    {
+      "Name": "Saludar",
+      "Emote": -339257980
+    },
+    {
+      "Name": "Lanzar beso",
+      "Emote": 1927505461
+    },
+    {
+      "Name": "Asentir con brazos cruzados",
+      "Emote": 1879954891
+    },
+    {
+      "Name": "¡Seguidme!",
+      "Emote": 1115379199
+    },
+    {
+      "Name": "Suplicar",
+      "Emote": 164860528
+    },
+    {
+      "Name": "Disparar en el aire",
+      "Emote": 1939251934
+    },
+    {
+      "Name": "Disparar al frente",
+      "Emote": -1639456476
+    },
+    {
+      "Name": "Aplaudir",
+      "Emote": -221241824
+    },
+    {
+      "Name": "Desaprobar",
+      "Emote": 1509171361
+    },
+    {
+      "Name": "Amenazar",
+      "Emote": 1256841324
+    },
+    {
+      "Name": "Fingir herida",
+      "Emote": -110352861
+    },
+    {
+      "Name": "Enfado",
+      "Emote": 796723886
+    },
+    {
+      "Name": "Victoria",
+      "Emote": -402959
+    },
+    {
+      "Name": "Mal olor",
+      "Emote": -166523388
+    },
+    {
+      "Name": "Aprobar",
+      "Emote": 425751659
+    },
+    {
+      "Name": "Escupir",
+      "Emote": -2106738342
+    },
+    {
+      "Name": "Mirar el horizonte",
+      "Emote": 935157006
+    },
+    {
+      "Name": "Indicar 1",
+      "Emote": 1593752891
+    },
+    {
+      "Name": "Indicar 2",
+      "Emote": 7918540
+    },
+    {
+      "Name": "Indicar 3",
+      "Emote": 486225122
+    },
+    {
+      "Name": "Venid aquí",
+      "Emote": 474409519
+    },
+    {
+      "Name": "Pescar",
+      "Emote": 1159716480
+    },
+    {
+      "Name": "Mostrar músculos",
+      "Emote": -773960361
+    },
+    {
+      "Name": "Conspirar",
+      "Emote": 589481092
+    },
+    {
+      "Name": "Parad",
+      "Emote": -1691237868
+    },
+    {
+      "Name": "Filtrear",
+      "Emote": 831975651
+    },
+    {
+      "Name": "Saludo amigable",
+      "Emote": 901097731
+    },
+    {
+      "Name": "Saludo cortés",
+      "Emote": -2121881035
+    },
+    {
+      "Name": "Saludar con el sombrero",
+      "Emote": -1457020913
+    },
+    {
+      "Name": "Saludar con respeto",
+      "Emote": -1801715172
+    },
+    {
+      "Name": "Contento de verte",
+      "Emote": 523585988
+    },
+    {
+      "Name": "¡Taa Daa!",
+      "Emote": -462132925
+    },
+    {
+      "Name": "Indignarse",
+      "Emote": 1802342943
+    },
+    {
+      "Name": "Enfermo",
+      "Emote": -1118911493
+    },
+    {
+      "Name": "Cállate",
+      "Emote": -1644757697
+    },
+    {
+      "Name": "Asentir",
+      "Emote": -822629770
+    },
+    {
+      "Name": "Burlarse",
+      "Emote": 803206066
+    },
+    {
+      "Name": "Negar",
+      "Emote": -653113914
+    },
+    {
+      "Name": "Aplauso lento",
+      "Emote": 1023735814
+    },
+    {
+      "Name": "¿Quién yo?",
+      "Emote": 329631369
+    },
+    {
+      "Name": "Yeehaa",
+      "Emote": 445839715
+    },
+    {
+      "Name": "Fingir lloro",
+      "Emote": 246916594
+    },
+    {
+      "Name": "Lamentarse",
+      "Emote": 81347960
+    },
+    {
+      "Name": "Gallina",
+      "Emote": 1825177171
+    },
+    {
+      "Name": "Que te jodan 1",
+      "Emote": 354512356
+    },
+    {
+      "Name": "Que te jodan 2",
+      "Emote": 969312568
+    },
+    {
+      "Name": "Te vigilo",
+      "Emote": -553424129
+    },
+    {
+      "Name": "Retar",
+      "Emote": 1533402397
+    },
+    {
+      "Name": "Enfadarse",
+      "Emote": 987239450
+    },
+    {
+      "Name": "Orgulloso",
+      "Emote": -1252070669
     }
   ]
 }

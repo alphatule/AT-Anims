@@ -25,7 +25,6 @@ namespace atanims_cl.Menus
             MenuController.MenuToggleKey = (Control)KeyInt;
 
 
-
             // WalkStyleMenu
             MenuController.AddSubmenu(mainMenu, WalkStyleMenu.GetMenu());
 
@@ -38,8 +37,6 @@ namespace atanims_cl.Menus
             MenuController.BindMenuItem(mainMenu, WalkStyleMenu.GetMenu(), subWalkStyleMenu);
 
 
-
-
             // AnimationsMenu
             MenuController.AddSubmenu(mainMenu, AnimationsMenu.GetMenu());
 
@@ -50,9 +47,6 @@ namespace atanims_cl.Menus
 
             mainMenu.AddMenuItem(subAnimationsMenu);
             MenuController.BindMenuItem(mainMenu, AnimationsMenu.GetMenu(), subAnimationsMenu);
-
-
-
 
 
             // EmotesMenu

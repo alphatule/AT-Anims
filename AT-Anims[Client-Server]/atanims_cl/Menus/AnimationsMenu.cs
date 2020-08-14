@@ -22,7 +22,7 @@ namespace atanims_cl.Menus
             // Stop Animations
             MenuItem stopAnim = new MenuItem(GetConfig.Langs["StopAnim"].ToString(), " ")
             {
-                RightIcon = MenuItem.Icon.SADDLE
+                RightIcon = MenuItem.Icon.STAR
             };
             animationsMenu.AddMenuItem(stopAnim);
 

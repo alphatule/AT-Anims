@@ -31,6 +31,7 @@ namespace atanims_cl
             configLoaded = true;
             atanims_init.KeyToOpen = FromHex(Config["KeyToOpenMenu"].ToString());
             Funciones.KeyFastAnim = FromHex(Config["AutoScenarioKey"].ToString());
+            Funciones.KeyStopAnim = FromHex(Config["StopAnimationKey"].ToString());
         }
 
         public static uint FromHex(string value)

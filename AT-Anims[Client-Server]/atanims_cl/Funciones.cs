@@ -11,13 +11,13 @@ namespace atanims_cl
 {
     public class Funciones : BaseScript
     {
-
-        public static bool inAnim = false;
         public static uint KeyFastAnim = 0;
+        public static uint KeyStopAnim = 0;
 
         public Funciones()
         {
             Tick += OnScenario;
+            Tick += StopAnim;
         }
 
         private static async Task OnScenario()
@@ -27,17 +27,8 @@ namespace atanims_cl
             {
                 if (GetConfig.Config["AutoScenarioActivated"].ToObject<bool>())
                 {
-                    if (!inAnim)
-                    {
-                        Vector3 pCoords = API.GetEntityCoords(API.PlayerPedId(), true, true);
-                        Function.Call((Hash)0x322BFDEA666E2B0E, API.PlayerPedId(), pCoords.X, pCoords.Y, pCoords.Z, 5.0, -1, 1, 1, 1, 1);
-                        inAnim = true;
-                    }
-                    else
-                    {
-                        API.ClearPedTasks(API.PlayerPedId(), 1, 1);
-                        inAnim = false;
-                    }
+                    Vector3 pCoords = API.GetEntityCoords(API.PlayerPedId(), true, true);
+                    Function.Call((Hash)0x322BFDEA666E2B0E, API.PlayerPedId(), pCoords.X, pCoords.Y, pCoords.Z, 5.0, -1, 1, 1, 1, 1);
                 }
             }
         }
@@ -92,6 +83,21 @@ namespace atanims_cl
             while (!API.HasAnimDictLoaded(dic))
             {
                 await Delay(100);
+            }
+        }
+
+        internal static void StartTypeEmote(int emote)
+        {
+            string emote_Str = emote.ToString();
+            Function.Call((Hash)0xB31A277C1AC7B7FF, API.PlayerPedId(), 0, 0, emote, 1, -1, 0, 0);
+        }
+
+        private static async Task StopAnim()
+        {
+            if (!GetConfig.configLoaded) return;
+            if (API.IsControlJustPressed(0, KeyStopAnim))
+            {
+                API.ClearPedTasks(API.PlayerPedId(), 1, 1);
             }
         }
     }
