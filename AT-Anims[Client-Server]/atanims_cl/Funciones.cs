@@ -71,7 +71,7 @@ namespace atanims_cl
                 if (!API.IsPedUsingAnyScenario(API.PlayerPedId()))
                 {
                     int hashDic = API.GetHashKey(GetConfig.Config["AnimationsList"][dicTable]["Anim"].ToString());
-                    API.TaskStartScenarioInPlace(API.PlayerPedId(), hashDic, -1, 0, 0, 0, 0);
+                    API.TaskStartScenarioInPlace(API.PlayerPedId(), hashDic, -1, 1, 0, 0, 0);
                 }
             }
         }
