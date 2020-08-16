@@ -1,5 +1,5 @@
 ﻿{
-  "defaultlang": "Es",
+  "defaultlang": "En",
   "KeyToOpenMenu": "0xD8F73058", // U
   "AutoScenarioActivated": true,
   "AutoScenarioKey": "0x1F6D95E5", // F4
@@ -16,35 +16,35 @@
       "Style": "MP_Style_Casual"
     },
     {
-      "Name": "Loca",
+      "Name": "Crazy",
       "Style": "MP_Style_Crazy"
     },
     {
-      "Name": "Extravagante",
+      "Name": "Flamboyant",
       "Style": "MP_Style_Flamboyant"
     },
     {
-      "Name": "Pistolero",
+      "Name": "Gunslinger",
       "Style": "MP_Style_Gunslinger"
     },
     {
-      "Name": "Refindo",
+      "Name": "Refined",
       "Style": "MP_Style_Refined"
     },
     {
-      "Name": "Silencioso",
+      "Name": "Silent",
       "Style": "MP_Style_SilentType"
     },
     {
-      "Name": "Bisoño",
+      "Name": "Greenhorn",
       "Style": "MP_Style_Greenhorn"
     },
     {
-      "Name": "Veterano",
+      "Name": "Veteran",
       "Style": "MP_Style_Veteran"
     },
     {
-      "Name": "Jinete",
+      "Name": "Easy Rider",
       "Style": "MP_Style_EasyRider"
     }
   ],
@@ -52,102 +52,102 @@
   // ANIMACIONES
   "AnimationsList": [
     {
-      "Name": "Llamar a la puerta",
+      "Name": "Knock on the door",
       "Anim": "WORLD_HUMAN_KNOCK_DOOR",
       "Type": "scenario"
     },
     {
-      "Name": "Orinar",
+      "Name": "Pee",
       "Anim": "WORLD_HUMAN_PEE",
       "Type": "scenario"
     },
     {
-      "Name": "Sentarse en el suelo",
+      "Name": "Sit on the floor",
       "Anim": "WORLD_HUMAN_FIRE_SIT",
       "Type": "scenario"
     },
     {
-      "Name": "Manos en la cintura",
+      "Name": "Hands on the waist",
       "Anim": "WORLD_HUMAN_BADASS",
       "Type": "scenario"
     },
     {
-      "Name": "Vomitar",
+      "Name": "Vomit",
       "Anim": "WORLD_HUMAN_VOMIT",
       "Type": "scenario"
     },
     {
-      "Name": "Vomitar de rodillas",
+      "Name": "Kneel vomit",
       "Anim": "WORLD_HUMAN_VOMIT_KNEEL",
       "Type": "scenario"
     },
     {
-      "Name": "Lavarse la cara de rodillas",
+      "Name": "Kneel face wash",
       "Anim": "WORLD_HUMAN_WASH_FACE_BUCKET_GROUND",
       "Type": "scenario"
     },
     {
-      "Name": "Observar de cuclillas",
+      "Name": "Kneel observer",
       "Anim": "WORLD_PLAYER_DYNAMIC_KNEEL",
       "Type": "scenario"
     },
     {
-      "Name": "Impaciente",
+      "Name": "Impatient",
       "Anim": "WORLD_HUMAN_WAITING_IMPATIENT",
       "Type": "scenario"
     },
     {
-      "Name": "Esperar",
+      "Name": "Waiting",
       "Anim": "WORLD_HUMAN_STAND_WAITING",
       "Type": "scenario"
     },
     {
-      "Name": "Inspeccionar el suelo",
+      "Name": "Inspect ground",
       "Anim": "WORLD_HUMAN_CROUCH_INSPECT",
       "Type": "scenario"
     },
     {
-      "Name": "Inspeccionar",
+      "Name": "Inspect",
       "Anim": "WORLD_HUMAN_INSPECT",
       "Type": "scenario"
     },
     {
-      "Name": "Cruzar los brazos",
+      "Name": "Cross arms",
       "Anim": "WORLD_HUMAN_STARE_STOIC",
       "Type": "scenario"
     },
     {
-      "Name": "Limpiar un vaso",
+      "Name": "Clean glass",
       "Anim": "WORLD_HUMAN_BARTENDER_CLEAN_GLASS",
       "Type": "scenario"
     },
     {
-      "Name": "Apoyarse en mostrador 1",
+      "Name": "Lay on the counter 1",
       "Anim": "WORLD_HUMAN_SHOPKEEPER",
       "Type": "scenario"
     },
     {
-      "Name": "Apoyarse en mostrador 2",
+      "Name": "Lay on the counter 2",
       "Anim": "WORLD_HUMAN_SHOPKEEPER_CATALOG",
       "Type": "scenario"
     },
     {
-      "Name": "Manos en la cintura 2",
+      "Name": "Hands on waist 2",
       "Anim": "WORLD_HUMAN_STERNGUY_IDLES",
       "Type": "scenario"
     },
     {
-      "Name": "Tomar notas en cuaderno",
+      "Name": "Take notes on a notebook",
       "Anim": "WORLD_HUMAN_WRITE_NOTEBOOK",
       "Type": "scenario"
     },
     {
-      "Name": "Fumar puro",
+      "Name": "Smoke cigar",
       "Anim": "WORLD_HUMAN_SMOKE_CIGAR",
       "Type": "scenario"
     },
     {
-      "Name": "Fumar cigarrillo",
+      "Name": "Smoke cigarette",
       "Anim": "WORLD_HUMAN_SMOKE_INTERACTION",
       "Type": "scenario"
     }
@@ -156,67 +156,67 @@
   // EMOTES
   "EmotesList": [
     {
-      "Name": "Saludar",
+      "Name": "Greet",
       "Emote": -339257980
     },
     {
-      "Name": "Lanzar beso",
+      "Name": "Send kiss",
       "Emote": 1927505461
     },
     {
-      "Name": "Asentir con brazos cruzados",
+      "Name": "Nod with crossed arms",
       "Emote": 1879954891
     },
     {
-      "Name": "¡Seguidme!",
+      "Name": "Follow me!",
       "Emote": 1115379199
     },
     {
-      "Name": "Suplicar",
+      "Name": "Supplicate",
       "Emote": 164860528
     },
     {
-      "Name": "Disparar al aire",
+      "Name": "Shoot into the air",
       "Emote": 1939251934
     },
     {
-      "Name": "Disparar al frente",
+      "Name": "Shoot forward",
       "Emote": -1639456476
     },
     {
-      "Name": "Aplaudir",
+      "Name": "Clap",
       "Emote": -221241824
     },
     {
-      "Name": "Desaprobar",
+      "Name": "Disapprove",
       "Emote": 1509171361
     },
     {
-      "Name": "Amenazar",
+      "Name": "Threat",
       "Emote": 1256841324
     },
     {
-      "Name": "Fingir herida",
+      "Name": "Feign injury",
       "Emote": -110352861
     },
     {
-      "Name": "Enfado",
+      "Name": "Angry",
       "Emote": 796723886
     },
     {
-      "Name": "Victoria",
+      "Name": "Victory",
       "Emote": -402959
     },
     {
-      "Name": "Mal olor",
+      "Name": "Bad smell",
       "Emote": -166523388
     },
     {
-      "Name": "Aprobar",
+      "Name": "Approve",
       "Emote": 425751659
     },
     {
-      "Name": "Escupir",
+      "Name": "Spit",
       "Emote": -2106738342
     },
     {
@@ -224,59 +224,59 @@
       "Emote": 935157006
     },
     {
-      "Name": "Indicar 1",
+      "Name": "Indicate 1",
       "Emote": 1593752891
     },
     {
-      "Name": "Indicar 2",
+      "Name": "Indicate 2",
       "Emote": 7918540
     },
     {
-      "Name": "Indicar 3",
+      "Name": "Indicate 3",
       "Emote": 486225122
     },
     {
-      "Name": "Venid aquí",
+      "Name": "Come here",
       "Emote": 474409519
     },
     {
-      "Name": "Pescar",
+      "Name": "Fish",
       "Emote": 1159716480
     },
     {
-      "Name": "Mostrar músculos",
+      "Name": "Flex muscles",
       "Emote": -773960361
     },
     {
-      "Name": "Conspirar",
+      "Name": "Plot",
       "Emote": 589481092
     },
     {
-      "Name": "Parad",
+      "Name": "Stop",
       "Emote": -1691237868
     },
     {
-      "Name": "Filtrear",
+      "Name": "Filter",
       "Emote": 831975651
     },
     {
-      "Name": "Saludo amigable",
+      "Name": "Friendly greet",
       "Emote": 901097731
     },
     {
-      "Name": "Saludo cortés",
+      "Name": "Polite greet",
       "Emote": -2121881035
     },
     {
-      "Name": "Saludar con el sombrero",
+      "Name": "Greet with the hat",
       "Emote": -1457020913
     },
     {
-      "Name": "Saludar con respeto",
+      "Name": "Respect greet",
       "Emote": -1801715172
     },
     {
-      "Name": "Contento de verte",
+      "Name": "Happy to see you",
       "Emote": 523585988
     },
     {
@@ -284,35 +284,35 @@
       "Emote": -462132925
     },
     {
-      "Name": "Indignarse",
+      "Name": "Get indignant",
       "Emote": 1802342943
     },
     {
-      "Name": "Enfermo",
+      "Name": "Sick",
       "Emote": -1118911493
     },
     {
-      "Name": "Cállate",
+      "Name": "Shut up",
       "Emote": -1644757697
     },
     {
-      "Name": "Asentir",
+      "Name": "Nod",
       "Emote": -822629770
     },
     {
-      "Name": "Burlarse",
+      "Name": "Make fun",
       "Emote": 803206066
     },
     {
-      "Name": "Negar",
+      "Name": "Deny",
       "Emote": -653113914
     },
     {
-      "Name": "Aplauso lento",
+      "Name": "Slow clap",
       "Emote": 1023735814
     },
     {
-      "Name": "¿Quién yo?",
+      "Name": "Who, me?",
       "Emote": 329631369
     },
     {
@@ -320,39 +320,39 @@
       "Emote": 445839715
     },
     {
-      "Name": "Fingir lloro",
+      "Name": "Feign cry",
       "Emote": 246916594
     },
     {
-      "Name": "Lamentarse",
+      "Name": "Lament",
       "Emote": 81347960
     },
     {
-      "Name": "Gallina",
+      "Name": "Chicken",
       "Emote": 1825177171
     },
     {
-      "Name": "Que te jodan 1",
+      "Name": "Fuck you 1",
       "Emote": 354512356
     },
     {
-      "Name": "Que te jodan 2",
+      "Name": "Fuck you 2",
       "Emote": 969312568
     },
     {
-      "Name": "Te vigilo",
+      "Name": "I'm watching you",
       "Emote": -553424129
     },
     {
-      "Name": "Retar",
+      "Name": "Challenge",
       "Emote": 1533402397
     },
     {
-      "Name": "Enfadarse",
+      "Name": "Get angry",
       "Emote": 987239450
     },
     {
-      "Name": "Orgulloso",
+      "Name": "Pride",
       "Emote": -1252070669
     }
   ]

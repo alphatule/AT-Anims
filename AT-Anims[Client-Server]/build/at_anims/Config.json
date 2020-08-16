@@ -1,14 +1,14 @@
 ﻿{
   "defaultlang": "Es",
-  "KeyToOpenMenu": "0xD8F73058",
+  "KeyToOpenMenu": "0xD8F73058", // U
   "AutoScenarioActivated": true,
-  "AutoScenarioKey": "0x1F6D95E5",
-  "StopAnimationKey": "0x26E9DC00",
+  "AutoScenarioKey": "0x1F6D95E5", // F4
+  "StopAnimationKey": "0x26E9DC00", // Z
 
   // Walk Style List
   "WalkStyleList": [
     {
-      "Name": "Default",
+      "Name": "Normal",
       "Style": "MP_Style_Default"
     },
     {
@@ -16,35 +16,35 @@
       "Style": "MP_Style_Casual"
     },
     {
-      "Name": "Crazy",
+      "Name": "Loca",
       "Style": "MP_Style_Crazy"
     },
     {
-      "Name": "Flamboyant",
+      "Name": "Extravagante",
       "Style": "MP_Style_Flamboyant"
     },
     {
-      "Name": "Gunslinger",
+      "Name": "Pistolero",
       "Style": "MP_Style_Gunslinger"
     },
     {
-      "Name": "Refined",
+      "Name": "Refindo",
       "Style": "MP_Style_Refined"
     },
     {
-      "Name": "SilentType",
+      "Name": "Silencioso",
       "Style": "MP_Style_SilentType"
     },
     {
-      "Name": "Greenhorn",
+      "Name": "Bisoño",
       "Style": "MP_Style_Greenhorn"
     },
     {
-      "Name": "Veteran",
+      "Name": "Veterano",
       "Style": "MP_Style_Veteran"
     },
     {
-      "Name": "EasyRider",
+      "Name": "Jinete",
       "Style": "MP_Style_EasyRider"
     }
   ],
@@ -67,7 +67,7 @@
       "Type": "scenario"
     },
     {
-      "Name": "Manos en cintura",
+      "Name": "Manos en la cintura",
       "Anim": "WORLD_HUMAN_BADASS",
       "Type": "scenario"
     },
@@ -87,7 +87,7 @@
       "Type": "scenario"
     },
     {
-      "Name": "Observar en cuclillas",
+      "Name": "Observar de cuclillas",
       "Anim": "WORLD_PLAYER_DYNAMIC_KNEEL",
       "Type": "scenario"
     },
@@ -132,7 +132,7 @@
       "Type": "scenario"
     },
     {
-      "Name": "Manos en cintura 2",
+      "Name": "Manos en la cintura 2",
       "Anim": "WORLD_HUMAN_STERNGUY_IDLES",
       "Type": "scenario"
     },
@@ -149,152 +149,6 @@
     {
       "Name": "Fumar cigarrillo",
       "Anim": "WORLD_HUMAN_SMOKE_INTERACTION",
-      "Type": "scenario"
-    },
-    {
-      "Name": "Meter bolsa (carro)",
-      "Anim": "PROP_HUMAN_SACK_STORAGE_IN",
-      "Type": "scenario"
-    },
-    {
-      "Name": "Tomar café",
-      "Anim": "WORLD_HUMAN_COFFEE_DRINK",
-      "Type": "scenario"
-    },
-    {
-      "Name": "Abanicarse",
-      "Anim": "WORLD_HUMAN_FAN",
-      "Type": "scenario"
-    },
-    {
-      "Name": "Sentarse en el suelo 2",
-      "Anim": "WORLD_CAMP_FIRE_SEATED_GROUND",
-      "Type": "scenario"
-    },
-    {
-      "Name": "Apoyarse en la pared",
-      "Anim": "WORLD_HUMAN_LEAN_BACK_WALL",
-      "Type": "scenario"
-    },
-    {
-      "Name": "Apoyarse pared fumando",
-      "Anim": "WORLD_HUMAN_LEAN_BACK_WALL_SMOKING",
-      "Type": "scenario"
-    },
-    {
-      "Name": "Apoyarse pared bebiendo",
-      "Anim": "WORLD_HUMAN_LEAN_BACK_WALL_DRINKING",
-      "Type": "scenario"
-    },
-    {
-      "Name": "Apoyarse a la derecha",
-      "Anim": "WORLD_HUMAN_LEAN_WALL_RIGHT",
-      "Type": "scenario"
-    },
-    {
-      "Name": "Sentarse y leer",
-      "Anim": "WORLD_HUMAN_SIT_GROUND_READING_BOOK",
-      "Type": "scenario"
-    },
-    {
-      "Name": "Sentarse con lata",
-      "Anim": "WORLD_HUMAN_CANNED_FOOD_COOKING",
-      "Type": "scenario"
-    },
-    {
-      "Name": "Limpiar ventana",
-      "Anim": "WORLD_HUMAN_CLEAN_WINDOW",
-      "Type": "scenario"
-    },
-    {
-      "Name": "Pescar de pie",
-      "Anim": "WORLD_HUMAN_STAND_FISHING",
-      "Type": "scenario"
-    },
-    {
-      "Name": "Apoyarse en la barandilla (fumar)",
-      "Anim": "WORLD_HUMAN_LEAN_RAILING",
-      "Type": "scenario"
-    },
-    {
-      "Name": "Sentarse saliente",
-      "Anim": "WORLD_HUMAN_SEAT_LEDGE_NEW",
-      "Type": "scenario"
-    },
-    {
-      "Name": "Dormir suelo 1",
-      "Anim": "WORLD_HUMAN_SLEEP_GROUND_PILLOW",
-      "Type": "scenario"
-    },
-    {
-      "Name": "Dormir suelo 2",
-      "Anim": "WORLD_HUMAN_SLEEP_GROUND_ARM",
-      "Type": "scenario"
-    },
-    {
-      "Name": "Sentarse saliente armónica",
-      "Anim": "WORLD_HUMAN_SEAT_LEDGE_HARMONICA",
-      "Type": "scenario"
-    },
-    {
-      "Name": "Sentarse banco armónica",
-      "Anim": "PROP_HUMAN_SEAT_BENCH_HARMONICA",
-      "Type": "scenario"
-    },
-    {
-      "Name": "Tocar guitarra sentado",
-      "Anim": "WORLD_HUMAN_SIT_GUITAR",
-      "Type": "scenario"
-    },
-    {
-      "Name": "Limpiarse",
-      "Dic": "amb_misc@world_human_wash_face_bucket@ground@male_a@idle_d",
-      "Anim": "idle_l",
-      "Type": "animation"
-    },
-    {
-      "Name": "Lavarse la cara de rodillas",
-      "Anim": "WORLD_HUMAN_WASH_FACE_BUCKET_GROUND",
-      "Type": "scenario"
-    },
-    {
-      "Name": "Observar en cuclillas",
-      "Anim": "WORLD_PLAYER_DYNAMIC_KNEEL",
-      "Type": "scenario"
-    },
-    {
-      "Name": "Impaciente",
-      "Anim": "WORLD_HUMAN_WAITING_IMPATIENT",
-      "Type": "scenario"
-    },
-    {
-      "Name": "Esperar",
-      "Anim": "WORLD_HUMAN_STAND_WAITING",
-      "Type": "scenario"
-    },
-    {
-      "Name": "Limpiar un vaso",
-      "Anim": "WORLD_HUMAN_BARTENDER_CLEAN_GLASS",
-      "Type": "scenario"
-    },
-    {
-      "Name": "Inspeccionar el suelo",
-      "Anim": "WORLD_HUMAN_CROUCH_INSPECT",
-      "Type": "scenario"
-    },
-    {
-      "Name": "Inspeccionar",
-      "Anim": "WORLD_HUMAN_INSPECT",
-      "Type": "scenario"
-    },
-    {
-      "Name": "Cruzar los brazos",
-      "Anim": "WORLD_HUMAN_STARE_STOIC",
-      "Type": "scenario"
-    },
-    {
-      "Name": "Tomar notas en cuaderno",
-      "Anim": "WORLD_HUMAN_WRITE_NOTEBOOK",
       "Type": "scenario"
     }
   ],
@@ -322,7 +176,7 @@
       "Emote": 164860528
     },
     {
-      "Name": "Disparar en el aire",
+      "Name": "Disparar al aire",
       "Emote": 1939251934
     },
     {
