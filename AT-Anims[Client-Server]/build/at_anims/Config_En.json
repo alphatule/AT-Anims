@@ -1,9 +1,9 @@
 ﻿{
-  "defaultlang": "En",
-  "KeyToOpenMenu": "0xD8F73058", // U
-  "AutoScenarioActivated": true,
-  "AutoScenarioKey": "0x1F6D95E5", // F4
-  "StopAnimationKey": "0x26E9DC00", // Z
+  "defaultlang": "En", // Default language
+  "KeyToOpenMenu": "0xD8F73058", // Key for opening the Menu, U
+  "AutoScenarioActivated": true, // Leave it set to true if you want to start and stop sceneries with the keys bellow
+  "AutoScenarioKey": "0x1F6D95E5", // Key to start sceneries, F4
+  "StopAnimationKey": "0x26E9DC00", // Key to stop sceneries, Z
 
   // Walk Style List
   "WalkStyleList": [
@@ -49,7 +49,7 @@
     }
   ],
 
-  // ANIMACIONES
+  // Animation List
   "AnimationsList": [
     {
       "Name": "Knock on the door",
@@ -153,7 +153,7 @@
     }
   ],
 
-  // EMOTES
+  // Emote List
   "EmotesList": [
     {
       "Name": "Greet",

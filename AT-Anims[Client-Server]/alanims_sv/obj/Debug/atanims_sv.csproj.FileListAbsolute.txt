@@ -25,3 +25,11 @@ C:\Users\Alph4\Desktop\VORP-Repositorios\AT-Anims-LHR\AT-Anims[Client-Server]\al
 C:\Users\Alph4\Desktop\VORP-Repositorios\AT-Anims-LHR\AT-Anims[Client-Server]\alanims_sv\obj\Debug\atanims_sv.net.dll
 C:\Users\Alph4\Desktop\VORP-Repositorios\AT-Anims-LHR\AT-Anims[Client-Server]\build\at_anims\Config_En.json
 C:\Users\Alph4\Desktop\VORP-Repositorios\AT-Anims-LHR\AT-Anims[Client-Server]\build\at_anims\En.json
+C:\Users\Alph4\Documents\GitHub\AT-Anims\AT-Anims[Client-Server]\build\at_anims\Config_En.json
+C:\Users\Alph4\Documents\GitHub\AT-Anims\AT-Anims[Client-Server]\build\at_anims\Config.json
+C:\Users\Alph4\Documents\GitHub\AT-Anims\AT-Anims[Client-Server]\build\at_anims\En.json
+C:\Users\Alph4\Documents\GitHub\AT-Anims\AT-Anims[Client-Server]\build\at_anims\Es.json
+C:\Users\Alph4\Documents\GitHub\AT-Anims\AT-Anims[Client-Server]\build\at_anims\atanims_sv.net.dll
+C:\Users\Alph4\Documents\GitHub\AT-Anims\AT-Anims[Client-Server]\alanims_sv\obj\Debug\atanims_sv.csprojAssemblyReference.cache
+C:\Users\Alph4\Documents\GitHub\AT-Anims\AT-Anims[Client-Server]\alanims_sv\obj\Debug\atanims_sv.csproj.CoreCompileInputs.cache
+C:\Users\Alph4\Documents\GitHub\AT-Anims\AT-Anims[Client-Server]\alanims_sv\obj\Debug\atanims_sv.net.dll
