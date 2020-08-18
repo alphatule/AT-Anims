@@ -1,9 +1,9 @@
 ﻿{
-  "defaultlang": "Es",
-  "KeyToOpenMenu": "0xD8F73058", // U
-  "AutoScenarioActivated": true,
-  "AutoScenarioKey": "0x1F6D95E5", // F4
-  "StopAnimationKey": "0x26E9DC00", // Z
+  "defaultlang": "Es", // Idioma por defecto
+  "KeyToOpenMenu": "0xD8F73058", // Tecla para abrir el menu, U
+  "AutoScenarioActivated": true, // Activar o desactivar Auto scenarios con tecla
+  "AutoScenarioKey": "0x1F6D95E5", // Tecla para iniciar escenarios automaticos, F4
+  "StopAnimationKey": "0x26E9DC00", // Tecla para parar animaciones o escenarios, Z
 
   // Walk Style List
   "WalkStyleList": [
