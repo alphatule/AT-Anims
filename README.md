@@ -10,7 +10,7 @@
 - You can change the script language in ```Config.json```
 - If you want to add new animations, you need to put this 🔽 in AnimationsList:
 Example animation [image](https://cdn.discordapp.com/attachments/731548283868282921/745282178325151744/Screenshot_320.png)
-```json
+```
     {
       "Name": "Animation Name", // Name that will appear in the Menu
       "Dic": "", // Look Example
@@ -19,7 +19,7 @@ Example animation [image](https://cdn.discordapp.com/attachments/731548283868282
     }
 ```
 - If you want to add new sceneries, you need to put this:
-```json
+```
     {
       "Name": "Animation Name", // Name that will appear in the Menu
       "Anim": "", // Example: WORLD_HUMAN_SMOKE_INTERACTION
@@ -28,7 +28,7 @@ Example animation [image](https://cdn.discordapp.com/attachments/731548283868282
 ```
 
 - If you want to add new emote, you need to put this 🔽 in EmotesList:
-```json
+```
     {
       "Name": "Emote Name",
       "Emote": -339257980 // Emote hash
