@@ -8,6 +8,7 @@
 
 - Add ```ensure at_anims``` in your server.cfg
 - You can change the script language in ```Config.json```
+- **U** to open menu 
 - If you want to add new animations, you need to put this 🔽 in AnimationsList:
 Example animation [image](https://cdn.discordapp.com/attachments/731548283868282921/745282178325151744/Screenshot_320.png)
 ```
