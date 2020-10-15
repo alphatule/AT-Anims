@@ -9,7 +9,7 @@
 - Add ```ensure at_anims``` in your server.cfg
 - You can change the script language in ```Config.json```
 - Press **U** to open menu 
-- If you want to add new animations, you need to put this 🔽 in AnimationsList:
+- If you want to add new animations, you need to put this 🔽 in ```Config.json``` AnimationsList:
 Example animation [image](https://cdn.discordapp.com/attachments/731548283868282921/745282178325151744/Screenshot_320.png)
 ```
     {
@@ -28,7 +28,7 @@ Example animation [image](https://cdn.discordapp.com/attachments/731548283868282
     }
 ```
 
-- If you want to add new emote, you need to put this 🔽 in EmotesList:
+- If you want to add new emote, you need to put this 🔽 in ```Config.json``` EmotesList:
 ```
     {
       "Name": "Emote Name",
