@@ -52,7 +52,7 @@
   // Animation List
   "AnimationsList": [
     {
-      "Name": "Knock on the door",
+      "Name": "Knock on door",
       "Anim": "WORLD_HUMAN_KNOCK_DOOR",
       "Type": "scenario"
     },
@@ -67,8 +67,13 @@
       "Type": "scenario"
     },
     {
-      "Name": "Hands on the waist",
+      "Name": "Hands on waist",
       "Anim": "WORLD_HUMAN_BADASS",
+      "Type": "scenario"
+    },
+    {
+      "Name": "Hands on waist 2",
+      "Anim": "WORLD_HUMAN_STERNGUY_IDLES",
       "Type": "scenario"
     },
     {
@@ -122,22 +127,17 @@
       "Type": "scenario"
     },
     {
-      "Name": "Lay on the counter 1",
+      "Name": "Lean on the counter 1",
       "Anim": "WORLD_HUMAN_SHOPKEEPER",
       "Type": "scenario"
     },
     {
-      "Name": "Lay on the counter 2",
+      "Name": "Lean on the counter 2",
       "Anim": "WORLD_HUMAN_SHOPKEEPER_CATALOG",
       "Type": "scenario"
     },
     {
-      "Name": "Hands on waist 2",
-      "Anim": "WORLD_HUMAN_STERNGUY_IDLES",
-      "Type": "scenario"
-    },
-    {
-      "Name": "Take notes on a notebook",
+      "Name": "Take notes",
       "Anim": "WORLD_HUMAN_WRITE_NOTEBOOK",
       "Type": "scenario"
     },
@@ -160,7 +160,7 @@
       "Emote": -339257980
     },
     {
-      "Name": "Send kiss",
+      "Name": "Blow kiss",
       "Emote": 1927505461
     },
     {
@@ -172,11 +172,11 @@
       "Emote": 1115379199
     },
     {
-      "Name": "Supplicate",
+      "Name": "Beg",
       "Emote": 164860528
     },
     {
-      "Name": "Shoot into the air",
+      "Name": "Shoot into air",
       "Emote": 1939251934
     },
     {
@@ -196,7 +196,7 @@
       "Emote": 1256841324
     },
     {
-      "Name": "Feign injury",
+      "Name": "Act injured",
       "Emote": -110352861
     },
     {
@@ -220,19 +220,19 @@
       "Emote": -2106738342
     },
     {
-      "Name": "Mirar el horizonte",
+      "Name": "Look into distance",
       "Emote": 935157006
     },
     {
-      "Name": "Indicate 1",
+      "Name": "Let's Go",
       "Emote": 1593752891
     },
     {
-      "Name": "Indicate 2",
+      "Name": "Point 1",
       "Emote": 7918540
     },
     {
-      "Name": "Indicate 3",
+      "Name": "Point 2",
       "Emote": 486225122
     },
     {
@@ -244,7 +244,7 @@
       "Emote": 1159716480
     },
     {
-      "Name": "Flex muscles",
+      "Name": "Flex",
       "Emote": -773960361
     },
     {
@@ -260,19 +260,19 @@
       "Emote": 831975651
     },
     {
-      "Name": "Friendly greet",
+      "Name": "Gentle wave",
       "Emote": 901097731
     },
     {
-      "Name": "Polite greet",
+      "Name": "Fancy bow",
       "Emote": -2121881035
     },
     {
-      "Name": "Greet with the hat",
+      "Name": "Tip hat",
       "Emote": -1457020913
     },
     {
-      "Name": "Respect greet",
+      "Name": "Respectful bow",
       "Emote": -1801715172
     },
     {
@@ -280,11 +280,11 @@
       "Emote": 523585988
     },
     {
-      "Name": "¡Taa Daa!",
+      "Name": "Taa Daa!",
       "Emote": -462132925
     },
     {
-      "Name": "Get indignant",
+      "Name": "Annoyed",
       "Emote": 1802342943
     },
     {
@@ -300,11 +300,11 @@
       "Emote": -822629770
     },
     {
-      "Name": "Make fun",
+      "Name": "Point and laugh",
       "Emote": 803206066
     },
     {
-      "Name": "Deny",
+      "Name": "Shake head",
       "Emote": -653113914
     },
     {
@@ -316,15 +316,15 @@
       "Emote": 329631369
     },
     {
-      "Name": "Yeehaa",
+      "Name": "Yeehaw",
       "Emote": 445839715
     },
     {
-      "Name": "Feign cry",
+      "Name": "Fake cry",
       "Emote": 246916594
     },
     {
-      "Name": "Lament",
+      "Name": "Sob",
       "Emote": 81347960
     },
     {
@@ -332,11 +332,11 @@
       "Emote": 1825177171
     },
     {
-      "Name": "Fuck you 1",
+      "Name": "Up yours",
       "Emote": 354512356
     },
     {
-      "Name": "Fuck you 2",
+      "Name": "Flip off",
       "Emote": 969312568
     },
     {
@@ -344,15 +344,15 @@
       "Emote": -553424129
     },
     {
-      "Name": "Challenge",
+      "Name": "Provoke",
       "Emote": 1533402397
     },
     {
-      "Name": "Get angry",
+      "Name": "War cry",
       "Emote": 987239450
     },
     {
-      "Name": "Pride",
+      "Name": "Boast",
       "Emote": -1252070669
     }
   ]
